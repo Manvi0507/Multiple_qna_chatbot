@@ -1,6 +1,7 @@
 from langchain_community.document_loaders import UnstructuredPDFLoader, DirectoryLoader
 from langchain.document_loaders import DirectoryLoader
 import matplotlib
+import cv2
 
 # Initialize loaders for different document types
 pdf_loader = DirectoryLoader("./med_data", glob="**/*.pdf", loader_cls=UnstructuredPDFLoader)
