@@ -16,7 +16,7 @@ tabula-py
 nltk
 python-pptx 
 python-docx 
-pypdf2 
+pypdf
 pdfplumber 
 PyPDF2 
 PyMuPDF
