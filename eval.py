@@ -1,4 +1,4 @@
-from langchain_community.document_loaders import UnstructuredPDFLoader, DirectoryLoader
+from langchain_community.document_loaders import UnstructuredPDFLoader, DirectoryLoader, UnstructuredWordDocumentLoader, UnstructuredPowerPointLoader, TextLoader
 from langchain.document_loaders import DirectoryLoader
 import matplotlib
 from langchain_community.document_loaders import ImageCaptionLoader
@@ -6,9 +6,9 @@ import cv2
 
 # Initialize loaders for different document types
 pdf_loader = DirectoryLoader("./med_data", glob="**/*.pdf", loader_cls=UnstructuredPDFLoader)
-docx_loader = DirectoryLoader("./med_data", glob="**/*.docx")
-ppt_loader = DirectoryLoader("./med_data", glob="**/*.pptx")
-txt_loader = DirectoryLoader("./med_data", glob="**/*.txt")
+docx_loader = DirectoryLoader("./med_data", glob="**/*.docx", loader_cls=UnstructuredWordDocumentLoader)
+ppt_loader = DirectoryLoader("./med_data", glob="**/*.pptx", loader_cls=UnstructuredPowerPointLoader)
+txt_loader = DirectoryLoader("./med_data", glob="**/*.txt", loader_cls=TextLoader)
 
 # Combine all loaders
 loaders = [pdf_loader, docx_loader, ppt_loader, txt_loader]
