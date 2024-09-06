@@ -10,6 +10,8 @@ groq
 unstructured 
 ragas 
 pytesseract 
+poppler-utils
+tesseract-ocr
 pandas 
 camelot-py 
 tabula-py
