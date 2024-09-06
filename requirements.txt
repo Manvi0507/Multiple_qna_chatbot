@@ -23,4 +23,5 @@ PyMuPDF
 matplotlib
 unstructured-ingest[bedrock]
 unstructured-inference
+pi_heif
 
