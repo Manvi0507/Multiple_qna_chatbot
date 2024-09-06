@@ -22,7 +22,7 @@ PyPDF2
 PyMuPDF
 matplotlib
 unstructured-ingest[bedrock]
-opencv-python
+opencv-python-headless
 layoutparser
 unstructured-inference
 pi_heif
