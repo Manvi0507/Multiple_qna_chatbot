@@ -1,6 +1,7 @@
 from langchain_community.document_loaders import UnstructuredPDFLoader, DirectoryLoader
 from langchain.document_loaders import DirectoryLoader
 import matplotlib
+from langchain_community.document_loaders import ImageCaptionLoader
 import cv2
 
 # Initialize loaders for different document types
