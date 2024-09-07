@@ -1,5 +1,6 @@
 streamlit
-faiss-cpu
+poppler-utils
+pytesseract 
 langchain
 langchain-groq
 google-generativeai
@@ -8,9 +9,8 @@ langchain_google_genai
 chromadb
 groq
 unstructured 
+unstructured-inference
 ragas 
-poppler-utils
-pytesseract 
 pandas 
 camelot-py 
 tabula-py
@@ -24,6 +24,5 @@ PyMuPDF
 matplotlib
 opencv-python-headless
 layoutparser
-unstructured-inference
 pi_heif
 
