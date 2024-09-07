@@ -9,9 +9,8 @@ chromadb
 groq
 unstructured 
 ragas 
-pytesseract 
 poppler-utils
-tesseract-ocr
+pytesseract 
 pandas 
 camelot-py 
 tabula-py
@@ -23,7 +22,6 @@ pdfplumber
 PyPDF2 
 PyMuPDF
 matplotlib
-unstructured-ingest[bedrock]
 opencv-python-headless
 layoutparser
 unstructured-inference
