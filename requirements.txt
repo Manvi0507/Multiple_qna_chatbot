@@ -21,7 +21,6 @@ pypdf
 pdfplumber 
 PyPDF2 
 PyMuPDF
-PDFInfo
 matplotlib
 opencv-python-headless
 layoutparser
