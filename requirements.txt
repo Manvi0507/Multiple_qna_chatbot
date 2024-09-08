@@ -16,6 +16,7 @@ pandas
 camelot-py 
 tabula-py
 nltk
+azure-ai-documentintelligence
 python-pptx 
 python-docx 
 pypdf
