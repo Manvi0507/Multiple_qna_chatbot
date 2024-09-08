@@ -1,6 +1,7 @@
 streamlit
 poppler-utils
 pytesseract 
+rapidocr-onnxruntime
 langchain
 langchain-groq
 google-generativeai
